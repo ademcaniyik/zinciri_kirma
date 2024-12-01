@@ -1,0 +1,44 @@
+.habit-card {
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.chain-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2px;
+    cursor: pointer;
+    background-color: #e9ecef;
+    transition: background-color 0.3s;
+    font-size: 12px;
+    color: #333;
+}
+
+.chain-circle.completed {
+    background-color: #28a745;
+    color: white;
+}
+
+.delete-habit {
+    color: #dc3545;
+    cursor: pointer;
+    float: right;
+}
+
+.habit-title {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.chain-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 10px;
+}
